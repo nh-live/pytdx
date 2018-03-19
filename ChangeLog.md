@@ -1,3 +1,33 @@
+1.65
+---
+* 增加历史财务数据相关下载和解析方法 ，参考文档 https://rainx.gitbooks.io/pytdx/content/pytdx_crawler.html 
+    感谢 @datochan issue #133
+
+1.64
+---
+* 增加query_history_data接口 2018-02-05 see: https://github.com/rainx/TdxTradeServer/releases/tag/v1.6.0.0
+
+1.63
+---
+* fix issue #146, 股票涨速字段解析有错 @a19284
+
+1.62
+----
+* Merge PR: fix bug for eol update to 1.62 #138
+1.61
+----
+* Merge pull request #136 from yutiansut/master 更新2018年交易日历
+
+1.60
+----
+* Merge pull request #122, #125 from zsluedem/master : fix bugs on hqpool
+* 增加指定绑定本地端口和ip地址功能 issue #119 https://github.com/rainx/pytdx/issues/119
+
+1.59
+----
+* hk stock amount fix form pr https://github.com/rainx/pytdx/pull/115
+* upgrade TdxTradeServer to 1.5 version for support multi account trade
+
 1.58
 ----
 * merge pr #110 - fix typo cacnel_order to  cancel _order  
